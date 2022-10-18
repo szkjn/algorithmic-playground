@@ -1,3 +1,3 @@
-# algorithm exercises
+# Algorithmic Exercises
 
 ## Code snippets of algorithm exercises
