@@ -1,2 +1,3 @@
-# algo
-Code snippets of algorithm exercises
+# algorithm exercises
+
+## Code snippets of algorithm exercises
