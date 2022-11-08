@@ -27,4 +27,4 @@ def antidivisor(n):
   
   print(res)
 
-antidivisor(5)
+antidivisor(234)
