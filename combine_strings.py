@@ -1,3 +1,11 @@
+"""
+Interview question of the week by Cassidy Williams (issue #274) :
+    Given a list of strings arr, and a max size n, return a new 
+    list where the strings (from left to right) are joined together 
+    with a space, so that each new string is less than or equal to 
+    the max size.
+"""
+
 def combineStrings(arr: list, n: int) -> list:
 
     res = []
