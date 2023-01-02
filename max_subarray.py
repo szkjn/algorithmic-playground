@@ -8,7 +8,7 @@ you can choose what you want to return.
 """
 
 
-def maxSubarray(arr: list, n: int) -> list:
+def max_subarray(arr: list, n: int) -> list:
 
     subarray = []
 
@@ -19,5 +19,5 @@ def maxSubarray(arr: list, n: int) -> list:
     print(subarray)
 
 
-maxSubarray([-4, 2, -5, 1, 2, 3, 6, -5, 1], 4)
-maxSubarray([1, 2, 0, 5], 2)
+max_subarray([-4, 2, -5, 1, 2, 3, 6, -5, 1], 4)
+max_subarray([1, 2, 0, 5], 2)
