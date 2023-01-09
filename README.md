@@ -9,4 +9,4 @@
 + Max Subarray ([python](../main/max_subarray.py)/[javascript](../main/maxSubarray.js)/[solidity](../main/maxSubarray.sol))
 + Swap Pairs ([python](../main/swap_pairs.py)/[javascript](../main/swapPairs.js)/[solidity](../main/swapPairs.sol))
 + Decode Morse Code ([python](../main/decode_morse_code.py))
-+ Sum every other digit ([python](../main/sum_every_other.py)/[javascript](../main/sumEveryOther.js))
++ Sum every other digit ([python](../main/sum_every_other.py)/[javascript](../main/sumEveryOther.js)/[typescript](../main/sumEveryOther.ts))
