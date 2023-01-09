@@ -9,13 +9,9 @@
 // > sumEveryOther(1010.11)
 // > 1 // 0+0+1
 
-function sumEveryOther(n) {
-  n = String(n)
-  res = 0
-  for (let i = 1; i < n.length; i += 2) { res += Number(n[i]) }
-  console.log(res)
+function sumEveryOther(n: number): number {
+  const nString: string = n.toString()
+  let res: number = 0
+  for (let i = 1; i < nString.length; i += 2) { res += Number(nString[i]) }
+  return res
 }
-
-sumEveryOther(548915381)
-sumEveryOther(10)
-sumEveryOther(1010.11)
