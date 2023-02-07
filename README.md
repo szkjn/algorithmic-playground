@@ -12,3 +12,4 @@ Little algo snippets from newsletters ([rendezvous with cassidoo](https://cassid
 | Swap Pairs | [python](../main/swap_pairs.py) | [javascript](../main/swapPairs.js) | | [solidity](../main/swapPairs.sol)|
 | Decode Morse Code | [python](../main/decode_morse_code.py) | | | |
 | Sum every other digit | [python](../main/sum_every_other.py) | [javascript](../main/sumEveryOther.js) | [typescript](../main/sumEveryOther.ts) | |
+| Get A1 Reference number | [python](../main/get_a1_ref_num.py) | | | |
