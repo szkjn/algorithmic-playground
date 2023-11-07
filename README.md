@@ -5,7 +5,7 @@ Little algo snippets from newsletters ([rendezvous with cassidoo](https://cassid
 ||<img src='https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg' width='24'>|<img src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' width='22'>|<img src='https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg' width='24'>|<img src='https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg' width='22'>|<img src='https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png' width='36'>|
 | --- | --- | --- | --- | --- | --- |
 | How many opened doors ? | [python](../main/how_many_opened_doors.py) | | | | |
-| Anti-Divisor | [python](../main/anti_divisor.py) | | | | |
+| Anti-Divisor | [python](../main/anti_divisor.py) | | | | [go](../main/anti_divisor.go)|
 | Combine strings | [python](../main/combine_strings.py) | | | | |
 | Replace consecutive zeros by its length | [python](../main/replace_consecutive_zeros_by_its_length.py) | | | | |
 | Max Subarray | [python](../main/max_subarray.py) | [javascript](../main/maxSubarray.js) | | [solidity](../main/maxSubarray.sol)| |
