@@ -11,5 +11,5 @@ Little algo snippets from newsletters ([rendezvous with cassidoo](https://cassid
 | Max Subarray | [python](../main/max_subarray.py) | [javascript](../main/maxSubarray.js) | | [solidity](../main/maxSubarray.sol)| |
 | Swap Pairs | [python](../main/swap_pairs.py) | [javascript](../main/swapPairs.js) | | [solidity](../main/swapPairs.sol)| [go](../main/swap_pairs.go)
 | Decode Morse Code | [python](../main/decode_morse_code.py) | | | | [go](../main/decode_morse_code.go)|
-| Sum every other digit | [python](../main/sum_every_other.py) | [javascript](../main/sumEveryOther.js) | [typescript](../main/sumEveryOther.ts) | | |
+| Sum every other digit | [python](../main/sum_every_other.py) | [javascript](../main/sumEveryOther.js) | [typescript](../main/sumEveryOther.ts) | |[go](../main/sum_every_other.go)|
 | Get A1 Reference number | [python](../main/get_a1_ref_num.py) | | | | |
