@@ -1,6 +1,6 @@
 # Algorithmic Playground
 
-Little algo snippets from newsletters ([rendezvous with cassidoo](https://cassidoo.co/newsletter/)) and [codewars](https://www.codewars.com/users/szkjn) challenges to master best practices in Python and get familiar with side projects languages such as Golang, Typescript, Solidity... All questions are written in comments at the beginning of the corresponding script.
+Little algo snippets from newsletters interview questions ([rendezvous with cassidoo](https://cassidoo.co/newsletter/)) and [codewars](https://www.codewars.com/users/szkjn) challenges to master best practices in Python and get familiar with various other languages such as Golang, Typescript, Solidity... All questions are written in comments at the beginning of the corresponding script.
 
 ||<img src='https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg' width='24'>|<img src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' width='22'>|<img src='https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg' width='24'>|<img src='https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg' width='22'>|<img src='https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png' width='36'>|
 | --- | --- | --- | --- | --- | --- |
