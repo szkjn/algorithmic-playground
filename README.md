@@ -16,4 +16,4 @@ Little algo snippets from newsletter interview questions ([rendezvous with cassi
 | Are two strings isomorphic ? | [python](../main/Python/is_isomorphic.py) | | | | [go](../main/Go/is_isomorphic.go)|
 | Ceaser Cipher | | | | | [go](../main/Go/ceaser_cipher.go)|
 | Mars exploration | | | | | [go](../main/Go/mars_exploration.go)|
-| Subsequence string search | | | | | [go](../main/Go/subsequence_string_search.go)|
+| Subsequence string search | |[javascript](../main/Go/subsequenceStringSearch.js)|[typescript](../main/Go/subsequenceStringSearch.ts)| | [go](../main/Go/subsequence_string_search.go)|
