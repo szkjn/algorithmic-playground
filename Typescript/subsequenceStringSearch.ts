@@ -1,4 +1,4 @@
-function hackerrankInStr(s: string): string {
+function hackerrankInStringTS(s: string): string {
     const hackerrank: string = "hackerrank";
     let idx: number = 0;
 
@@ -14,6 +14,6 @@ function hackerrankInStr(s: string): string {
     return "NO";
 }
 
-console.log(hackerrankInStr("hereiamstackerrank"));
-console.log(hackerrankInStr("hackerworld"));
-console.log(hackerrankInStr("hereiamsthhaacckkekraraannkackerrank"));
+console.log(hackerrankInStringTS("hereiamstackerrank"));
+console.log(hackerrankInStringTS("hackerworld"));
+console.log(hackerrankInStringTS("hereiamsthhaacckkekraraannkackerrank"));
