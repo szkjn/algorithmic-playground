@@ -28,55 +28,80 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"io"
 	"os"
 	"strconv"
+	"strings"
 )
 
 func diagonalDifference(arr [][]int32) int32 {
-	var res int32
-	res = 0
 
-	fmt.Println(arr[0][0])
-	fmt.Println(arr[0][1])
-	fmt.Println(arr[0][2])
-	fmt.Println(arr[1][0])
-	fmt.Println(arr[1][1])
-	fmt.Println(arr[1][2])
+	var firstDiag, secondDiag int32 = 0, 0
 
-	// for i := 0; i < len(arr); i++ {
-	// 	res += arr[i] + arr[i][i]
-	// }
+	for i := 0; i < len(arr); i++ {
+		firstDiag += arr[i][i]
+		secondDiag += arr[i][len(arr)-i-1]
+	}
+
+	res := firstDiag - secondDiag
+	if res < 0 {
+		return -res
+	}
 	return res
+
 }
 
 func main() {
-	var n int
-	fmt.Print("Number of dimensions : ")
-	fmt.Scanf("%d\n", &n)
+	reader := bufio.NewReaderSize(os.Stdin, 16*1024*1024)
 
-	scanner := bufio.NewScanner(os.Stdin)
+	stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
+	checkError(err)
 
-	var sqMatrix [][]int32
-	var sqRow []int32
+	defer stdout.Close()
 
+	writer := bufio.NewWriterSize(stdout, 16*1024*1024)
+
+	nTemp, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
+	checkError(err)
+	n := int32(nTemp)
+
+	var arr [][]int32
 	for i := 0; i < int(n); i++ {
-		fmt.Printf("Row #%d: ", i)
+		arrRowTemp := strings.Split(strings.TrimRight(readLine(reader), " \t\r\n"), " ")
 
-		scanner.Scan()
-		sqStr := scanner.Text()
-		sqItem, err := strconv.Atoi(sqStr)
-		if err != nil {
-			panic(err)
+		var arrRow []int32
+		for _, arrRowItem := range arrRowTemp {
+			arrItemTemp, err := strconv.ParseInt(arrRowItem, 10, 64)
+			checkError(err)
+			arrItem := int32(arrItemTemp)
+			arrRow = append(arrRow, arrItem)
 		}
-		sqRow = append(sqRow, int32(sqItem))
+
+		if len(arrRow) != int(n) {
+			panic("Bad input")
+		}
+
+		arr = append(arr, arrRow)
 	}
 
-	if len(sqRow) != int(n) {
-		panic("Bad input.")
+	result := diagonalDifference(arr)
+
+	fmt.Fprintf(writer, "%d\n", result)
+
+	writer.Flush()
+}
+
+func readLine(reader *bufio.Reader) string {
+	str, _, err := reader.ReadLine()
+	if err == io.EOF {
+		return ""
 	}
 
-	sqMatrix = append(sqMatrix, sqRow)
+	return strings.TrimRight(string(str), "\r\n")
+}
 
-	res := diagonalDifference(sqMatrix)
-	fmt.Println(res)
+func checkError(err error) {
+	if err != nil {
+		panic(err)
+	}
 }
