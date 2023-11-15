@@ -1,3 +1,25 @@
+/*
+Given five positive integers, find the minimum and maximum values that can be calculated 
+by summing exactly four of the five integers. Then print the respective minimum and 
+maximum values as a single line of two space-separated long integers.
+
+Example:
+arr = [1, 3, 5, 7, 9]
+The minimum sum is 1 + 3 + 5 + 7 = 16 and the maximum sum is 3 + 5 + 7 + 9 = 24. 
+The function prints: 16 24
+
+Function Parameters:
+- arr: an array of 5 integers
+
+Input Format:
+- A single line of five space-separated integers.
+
+Output Format:
+- Print two space-separated long integers denoting the respective minimum and maximum 
+values that can be calculated by summing exactly four of the five integers. 
+(The output can be greater than a 32 bit integer.)
+*/
+
 package main
 
 import (
@@ -10,7 +32,6 @@ import (
 )
 
 func miniMaxSum(arr []int32) {
-	// Write your code here
 	sort.Slice(arr, func(i, j int) bool {
 		return arr[i] < arr[j]
 	})
@@ -24,7 +45,7 @@ func miniMaxSum(arr []int32) {
 	for i := 1; i < 5; i++ {
 		maxSum += int(arr[i])
 	}
-
+	
 	fmt.Printf("%d %d\n", minSum, maxSum)
 }
 
@@ -50,6 +71,6 @@ func main() {
 		}
 		arr = append(arr, int32(num))
 	}
-
+	
 	miniMaxSum(arr)
 }
