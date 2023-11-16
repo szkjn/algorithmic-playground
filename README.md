@@ -19,4 +19,4 @@ Little algo snippets from newsletter interview questions ([rendezvous with cassi
 | Subsequence string search | |[javascript](../main/JavaScript/subsequenceStringSearch.js)|[typescript](../main/TypeScript/subsequenceStringSearch.ts)| | [go](../main/Go/subsequence_string_search.go)|
 | Diagonal difference | | | | | [go](../main/Go/diagonal_difference.go)|
 | Min-max sum | | | | | [go](../main/Go/min_max_sum.go)|
-| Highest candles |[python](../main/Go/highest_candles.py)| | | | [go](../main/Go/highest_candles.go)|
+| Highest candles |[python](../main/Python/highest_candles.py)| | | | [go](../main/Go/highest_candles.go)|
