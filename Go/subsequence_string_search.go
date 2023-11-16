@@ -28,7 +28,6 @@ import "fmt"
 
 func hackerrankInString(s string) string {
 	subStr := "hackerrank"
-
 	idx := 0
 
 	for i, _ := range s {
