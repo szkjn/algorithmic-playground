@@ -20,4 +20,4 @@ Little algo snippets from newsletter interview questions ([rendezvous with cassi
 | Diagonal difference | | | | | [go](../main/Go/diagonal_difference.go)|
 | Min-max sum | | | | | [go](../main/Go/min_max_sum.go)|
 | Highest candles |[python](../main/Python/highest_candles.py)| | | | [go](../main/Go/highest_candles.go)|
-| Time conversion ||[javascript](../main/JavaScript/time_conversion.js)|[javascript](../main/TypeScript/time_conversion.ts)| | [go](../main/Go/time_conversion.go)|
+| Time conversion ||[javascript](../main/JavaScript/timeConversion.js)|[typescript](../main/TypeScript/timeConversion.ts)| | [go](../main/Go/time_conversion.go)|
