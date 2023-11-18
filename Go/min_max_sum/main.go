@@ -31,7 +31,7 @@ import (
 	"strings"
 )
 
-func miniMaxSum(arr []int32) {
+func miniMaxSum(arr []int32) (int, int) {
 	sort.Slice(arr, func(i, j int) bool {
 		return arr[i] < arr[j]
 	})
@@ -46,7 +46,7 @@ func miniMaxSum(arr []int32) {
 		maxSum += int(arr[i])
 	}
 
-	fmt.Printf("%d %d\n", minSum, maxSum)
+	return minSum, maxSum
 }
 
 func main() {
@@ -72,5 +72,5 @@ func main() {
 		arr = append(arr, int32(num))
 	}
 
-	miniMaxSum(arr)
+	fmt.Println(miniMaxSum(arr))
 }

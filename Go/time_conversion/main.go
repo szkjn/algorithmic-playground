@@ -43,7 +43,7 @@ func timeConversion(s string) string {
 
 	if meridiem == "PM" && hhTmp < 12 {
 		res = strconv.Itoa(hhTmp+12) + res[2:]
-	} else if hhTmp == 12 {
+	} else if meridiem == "AM" && hhTmp == 12 {
 		res = "00" + res[2:]
 	}
 	return res

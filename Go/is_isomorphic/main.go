@@ -1,7 +1,7 @@
 /*
-Given two strings s and t, determine if they are isomorphic. 
-Two strings are isomorphic if there is a one-to-one mapping 
-possible for every character of the first string to every 
+Given two strings s and t, determine if they are isomorphic.
+Two strings are isomorphic if there is a one-to-one mapping
+possible for every character of the first string to every
 character of the second string.
 
 Example:
