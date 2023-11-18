@@ -1,4 +1,5 @@
-module Go
+module github.com/szkjn/algorithmic-playground/Go
+
 
 go 1.21.3
 

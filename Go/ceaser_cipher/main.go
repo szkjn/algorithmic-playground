@@ -67,7 +67,9 @@ func caesarCipher(s string, k int) string {
 func main() {
 	var delta int
 	var input string
+	fmt.Println("Provide string to cipher:")
 	fmt.Scanf("%s\n", &input)
+	fmt.Println("Provide cipher's delta (int):")
 	fmt.Scanf("%d\n", &delta)
 
 	res := caesarCipher(input, delta)
