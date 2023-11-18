@@ -10,7 +10,7 @@ B -> 2
 C -> 3
 Z -> 26
 AA -> 27
-AB -> 28 
+AB -> 28
 AAA -> 703
 */
 
@@ -20,11 +20,11 @@ import (
 	"fmt"
 )
 
-func columnNumber(colName string) int {
+func columnNumber(s string) int {
 	alphabet := "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	colNum := 0
 
-	for _, c := range colName {
+	for _, c := range s {
 		index := int(c - 'A' + 1)
 		colNum = colNum*len(alphabet) + index
 	}

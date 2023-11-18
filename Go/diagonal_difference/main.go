@@ -48,22 +48,16 @@ func diagonalDifference(arr [][]int32) int32 {
 		return -res
 	}
 	return res
-
 }
 
 func main() {
 	reader := bufio.NewReaderSize(os.Stdin, 16*1024*1024)
 
-	stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
-	checkError(err)
-
-	defer stdout.Close()
-
-	writer := bufio.NewWriterSize(stdout, 16*1024*1024)
-
+	fmt.Println("Enter dimension of the square (int):")
 	nTemp, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
 	checkError(err)
 	n := int32(nTemp)
+	fmt.Printf("Enter %d rows of %d numbers separated by a space:\n", n, n)
 
 	var arr [][]int32
 	for i := 0; i < int(n); i++ {
@@ -85,10 +79,7 @@ func main() {
 	}
 
 	result := diagonalDifference(arr)
-
-	fmt.Fprintf(writer, "%d\n", result)
-
-	writer.Flush()
+	fmt.Printf("Results: %v\n", result)
 }
 
 func readLine(reader *bufio.Reader) string {

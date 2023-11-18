@@ -1,6 +1,7 @@
 /*
 Code Wars Kata :
-Your task is to implement a function that would take the morse code as input and return a decoded human-readable string.
+Your task is to implement a function that would take the morse code
+as input and return a decoded human-readable string.
 */
 
 package main
@@ -24,8 +25,8 @@ var morseCode = map[string]string{
 	".-..-.": "\"", "...-..-": "$", ".--.-.": "@", "...---...": "SOS",
 }
 
-func decodeMorse(morseCodeStr string) string {
-	words := strings.Split(strings.TrimSpace(morseCodeStr), "   ")
+func decodeMorse(s string) string {
+	words := strings.Split(strings.TrimSpace(s), "   ")
 	decodedWords := make([]string, len(words))
 
 	for i, word := range words {
