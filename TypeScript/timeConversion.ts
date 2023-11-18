@@ -50,8 +50,12 @@ rl.question('Enter time in 12-hours format hh:mm:ss<AM/PM>:\n', (input: string) 
     try {
         const result: string = timeConversion(input);
         console.log(result);
-    } catch (error) {
-        console.error('Error:', error.message);
+    } catch (error: unknown) {
+        if (error instanceof Error) {
+            console.error('Error:', error.message);
+        } else {
+            console.error('An unexpected error occurred');
+        }
     }
     rl.close();
 });
