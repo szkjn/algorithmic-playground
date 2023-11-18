@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository is a collection of algorithmic exercises and code challenges ([rendezvous with cassidoo](https://cassidoo.co/newsletter/)/[HackerRank](https://www.hackerrank.com/profile/junseraphinsuzu1)/[Codewars](https://www.codewars.com/users/szkjn)) to master best practices in Python, Go, Typescript and other side-projects languages. All questions are written in comments at the beginning of the corresponding script.
+This repository is a collection of algorithmic exercises and code challenges ([rendezvous with cassidoo](https://cassidoo.co/newsletter/)/[HackerRank](https://www.hackerrank.com/profile/junseraphinsuzu1)/[Codewars](https://www.codewars.com/users/szkjn)) to master best practices in **Python**, **Go**, **Typescript** and other side-projects languages. *All exercises problems are written in comments at the beginning of the corresponding script.*
 
 ## Repository structure
 
