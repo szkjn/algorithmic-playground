@@ -30,7 +30,7 @@ func hackerrankInString(s string) string {
 	subStr := "hackerrank"
 	idx := 0
 
-	for i, _ := range s {
+	for i := range s {
 
 		if s[i] == subStr[idx] {
 			idx++

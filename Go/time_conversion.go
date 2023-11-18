@@ -36,14 +36,14 @@ func timeConversion(s string) string {
 	hh := s[:2]
 	meridiem := strings.TrimSpace(s[8:])
 
-	hh_tmp, err := strconv.Atoi(hh)
+	hhTmp, err := strconv.Atoi(hh)
 	if err != nil {
 		panic(err)
 	}
 
-	if meridiem == "PM" && hh_tmp < 12 {
-		res = strconv.Itoa(hh_tmp+12) + res[2:]
-	} else if hh_tmp == 12 {
+	if meridiem == "PM" && hhTmp < 12 {
+		res = strconv.Itoa(hhTmp+12) + res[2:]
+	} else if hhTmp == 12 {
 		res = "00" + res[2:]
 	}
 	return res

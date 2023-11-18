@@ -40,7 +40,7 @@ func marsExploration(s string) int32 {
 	countMsg := len(s) / 3
 	originalMessage := strings.Repeat("SOS", countMsg)
 
-	for idx, _ := range s {
+	for idx := range s {
 		if s[idx] != originalMessage[idx] {
 			res++
 		}

@@ -31,14 +31,14 @@ import (
 )
 
 func birthdayCakeCandles(candles []int32) int32 {
-	var res, max_height int32 = 0, 0
+	var res, maxHeight int32 = 0, 0
 	for _, el := range candles {
-		if el > max_height {
-			max_height = el
+		if el > maxHeight {
+			maxHeight = el
 		}
 	}
 	for _, el := range candles {
-		if el == max_height {
+		if el == maxHeight {
 			res++
 		}
 	}
