@@ -1,0 +1,30 @@
+{
+  "name": "algorithmic-playground-typescript",
+  "version": "1.0.0",
+  "description": "contains independent .ts files of various coding challenges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szkjn/algorithmic-playground.git"
+  },
+  "keywords": [
+    "typescript",
+    "algorithms",
+    "coding-challenges",
+    "practice",
+    "learning",
+    "coding-exercises"
+  ],
+  "author": "Jun Suzuki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szkjn/algorithmic-playground/issues"
+  },
+  "homepage": "https://github.com/szkjn/algorithmic-playground#readme",
+  "devDependencies": {
+    "@types/node": "^20.9.1"
+  }
+}

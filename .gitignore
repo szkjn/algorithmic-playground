@@ -1,3 +1,7 @@
+# Dev files and archive
 old/
 .old
 .debug
+
+# TypeScript related
+node_modules/
