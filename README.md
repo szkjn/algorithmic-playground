@@ -31,6 +31,7 @@ This repository is a collection of algorithmic exercises and code challenges ([r
 | Min-max sum | | | | | [go](../main/Go/min_max_sum.go)|
 | Highest candles |[python](../main/Python/highest_candles.py)| | | | [go](../main/Go/highest_candles.go)|
 | Time conversion ||[javascript](../main/JavaScript/timeConversion.js)|[typescript](../main/TypeScript/timeConversion.ts)| | [go](../main/Go/time_conversion.go)|
+| Phone Book |||| | [go](../main/Go/phone_book.go)|
 
 ## CI/CD Pipeline with GitHub Actions
 
