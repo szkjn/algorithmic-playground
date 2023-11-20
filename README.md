@@ -7,7 +7,7 @@ This repository is a collection of algorithmic exercises and code challenges ([r
 ## Repository structure
 
 - Each language has its own directory (e.g. `Go`, `Python`, `TypeScript`).
-- Within the `Go` directory, every exercise if contained in its own subdirectory, each with a `main.go` file, a `go.mod` file and a `main_test.go` file.
+- Within the `Go` directory, every exercise is contained in its own subdirectory, each with `go.mod`, `main.go` and `main_test.go` files.
 - Other languages are organized similarly, following the best practices of each language.
 
 ## Content summary
