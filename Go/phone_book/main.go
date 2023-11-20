@@ -54,9 +54,9 @@ import (
 func createPhoneBook(arr []string) map[string]string {
 	res := make(map[string]string)
 	for _, el := range arr {
-		tmp_arr := strings.Split(el, " ")
-		name := strings.TrimSpace(tmp_arr[0])
-		phone := strings.TrimSpace(tmp_arr[1])
+		tmpArr := strings.Split(el, " ")
+		name := strings.TrimSpace(tmpArr[0])
+		phone := strings.TrimSpace(tmpArr[1])
 		res[name] = phone
 	}
 	return res
@@ -75,10 +75,10 @@ func getPhone(n string, phoneBook map[string]string) string {
 func main() {
 	reader := bufio.NewReaderSize(os.Stdin, 16*1024*1024)
 
-	n_tmp, err := reader.ReadString('\n')
+	nTmp, err := reader.ReadString('\n')
 	must(err)
 
-	n, err := strconv.Atoi(strings.TrimSpace(n_tmp))
+	n, err := strconv.Atoi(strings.TrimSpace(nTmp))
 	must(err)
 
 	arr := []string{}
