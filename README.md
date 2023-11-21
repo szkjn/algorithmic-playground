@@ -32,6 +32,8 @@ This repository is a collection of algorithmic exercises and code challenges ([r
 | Highest candles |[python](../main/Python/highest_candles.py)| | | | [go](../main/Go/highest_candles/main.go)|
 | Time conversion ||[javascript](../main/JavaScript/timeConversion.js)|[typescript](../main/TypeScript/timeConversion.ts)| | [go](../main/Go/time_conversion/main.go)|
 | Phone Book |||| | [go](../main/Go/phone_book/main.go)|
+| Factorial |||| | [go](../main/Go/factorial/main.go)|
+| Between two sets |||| | [go](../main/Go/between_two_sets/main.go)|
 
 ## CI/CD Pipeline with GitHub Actions
 
