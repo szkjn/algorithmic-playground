@@ -37,11 +37,18 @@ This repository is a collection of algorithmic exercises and code challenges ([r
 
 ## CI/CD Pipeline with GitHub Actions
 
-### Linting and code quality
+A Continuous Integration (CI) pipeline has been setup using GitHub Actions to ensure code quality, consistency, and successful builds for both our Go and TypeScript code.
 
-I've set up a Continuous Integration (CI) pipeline using GitHub Actions to ensure code quality and consistency. Here's how it works:
+### Go linting and testing
 
-1. **Linting on Push**: Each time code is pushed to the repository, the CI pipeline automatically lints the code.
-2. **Tools Used**: I use `golint` to check the Go code for style mistakes and maintain a consistent code style.
-3. **GitHub Actions Workflow**: The linting process is defined in the `.github/workflows/go-lint.yml` file.
+1. **Linting on Push and Pull Requests**: Whenever code is pushed or a pull request is made, the CI pipeline automatically lints the Go code to ensure coding standards are met.
+2. **Automated Testing**: Along with linting, the pipeline runs tests for the Go code to validate functionality.
+2. **Tools Used**: I use `golint` for linting and Go's built-in testing framework for running tests.
+3. **GitHub Actions Workflow**: The linting process is defined in the `.github/workflows/go-lint-and-test.yml` file, utilizing GitHub Actions to automatically execute linting and testing on the latest version of Go.
 
+### TypeScript Build
+
+1. **Build on Push and Pull Requests**: The CI pipeline is configured to automatically build TypeScript files whenever changes are pushed or a pull request is made to the TypeScript directory.
+2. **Node.js Setup**: The workflow sets up a Node.js environment to manage dependencies and run the build scripts.
+3. **Build Script**: TypeScript files are compiled using the TypeScript compiler configured in the package.json file.
+4. **Workflow Details**: The TypeScript build process is defined in the `.github/workflows/typescript-build.yml` file. It ensures that TypeScript code is compiled successfully, preventing runtime errors due to compilation issues.
