@@ -12,9 +12,8 @@ import (
 func factorial(n int32) int32 {
 	if n <= 1 {
 		return 1
-	} else {
-		return n * factorial(n-1)
 	}
+	return n * factorial(n-1)
 }
 
 func main() {
