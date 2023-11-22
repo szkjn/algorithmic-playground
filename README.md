@@ -34,6 +34,7 @@ This repository is a collection of algorithmic exercises and code challenges ([r
 | Phone Book |||| | [go](../main/Go/phone_book/main.go)|
 | Factorial |||| | [go](../main/Go/factorial/main.go)|
 | Between two sets |||| | [go](../main/Go/between_two_sets/main.go)|
+| Binary numbers |||| | [go](../main/Go/binary_numbers/main.go)|
 
 ## CI/CD Pipeline with GitHub Actions
 

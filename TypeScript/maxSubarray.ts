@@ -5,15 +5,15 @@
 // the order of the original array, and if n is greater than arr.length, 
 // you can choose what you want to return.
 
-const sum = (arr) => {
-    const sum = arr.reduce((a, b) => a + b, 0)
+const sum = (arr: number[]): number => {
+    const sum: number = arr.reduce((a, b) => a + b, 0)
     return sum
 }
 
-const maxSubarray = (arr, n) => {
-    let subarray = []
+const maxSubarray = (arr: number[], n: number): void => {
+    let subarray: number[] = []
     for (let i=0; i < arr.length-n+1; i++) {
-        const currentArr = arr.slice(i,i+n)    
+        const currentArr: number[] = arr.slice(i,i+n)    
         if (sum(currentArr) > sum(subarray)) {
             subarray = currentArr
         }
