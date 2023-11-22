@@ -22,7 +22,7 @@ hackerworld 		// should return NO
 hhaacckkekraraannk 	// should return YES
 */
 
-function hackerrankInStringTS(s: string): string {
+export function subsequenceStringSearch(s: string): string {
     const hackerrank: string = "hackerrank";
     let idx: number = 0;
 
@@ -37,7 +37,3 @@ function hackerrankInStringTS(s: string): string {
 
     return "NO";
 }
-
-console.log(hackerrankInStringTS("hereiamstackerrank"));
-console.log(hackerrankInStringTS("hackerworld"));
-console.log(hackerrankInStringTS("hereiamsthhaacckkekraraannkackerrank"));

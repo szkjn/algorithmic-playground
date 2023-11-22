@@ -23,7 +23,7 @@ Constraints:
 
 import * as readline from 'readline';
 
-function timeConversion(s: string): string {
+export function timeConversion(s: string): string {
     let res: string = s.substring(0, 8);
     const hh: string = s.substring(0, 2);
     const meridiem: string = s.substring(8).trim();

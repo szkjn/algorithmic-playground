@@ -19,7 +19,7 @@ const MORSE_CODE: {[code: string]: string} = {
     '...---...': 'SOS'
 };
 
-function decodeMorse(morseCode: string): string {
+export function decodeMorseCode(morseCode: string): string {
     const words: string[] = morseCode.trim().split('   ');
     const result: string[] = words.map(word => 
         word.split(' ').map(letter => MORSE_CODE[letter]).join('')
@@ -27,7 +27,3 @@ function decodeMorse(morseCode: string): string {
 
     return result.join(' ');
 }
-
-console.log(decodeMorse('.... . -.--   .--- ..- -.. .'));  // Output: 'HEY JUDE'
-console.log(decodeMorse('...---...'));                      // Output: 'SOS'
-console.log(decodeMorse('...   ---   ...'));                // Output: 'S O S'
