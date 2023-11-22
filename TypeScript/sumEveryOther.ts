@@ -11,7 +11,7 @@ Example:
 > 1 // 0+0+1
 */
 
-function sumEveryOtherTS(n: number): number {
+export function sumEveryOtherTS(n: number): number {
   const nString: string = n.toString()
   let res: number = 0
   for (let i = 1; i < nString.length; i += 2) { res += Number(nString[i]) }
