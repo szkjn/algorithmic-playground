@@ -18,9 +18,9 @@ This repository is a collection of algorithmic exercises and code challenges ([r
 | Anti-Divisor | [python](../main/Python/anti_divisor.py) | | | | [go](../main/Go/anti_divisor/main.go)|
 | Combine strings | [python](../main/Python/combine_strings.py) | | | | |
 | Replace consecutive zeros by its length | [python](../main/Python/replace_consecutive_zeros_by_its_length.py) | | | | |
-| Max Subarray | [python](../main/Python/max_subarray.py) | [javascript](../main/JavaScript/maxSubarray.js) | | [solidity](../main/Solidity/maxSubarray.sol)| |
-| Swap Pairs | [python](../main/Python/swap_pairs.py) | [javascript](../main/JavaScript/swapPairs.js) | | [solidity](../main/Solidity/swapPairs.sol)| [go](../main/Go/swap_pairs/main.go)
-| Decode Morse Code | [python](../main/Python/decode_morse_code.py) | | | | [go](../main/Go/decode_morse_code/main.go)|
+| Max Subarray | [python](../main/Python/max_subarray.py) | [javascript](../main/JavaScript/maxSubarray.js) |[typescript](../main/TypeScript/maxSubarray.ts)| [solidity](../main/Solidity/maxSubarray.sol)| |
+| Swap Pairs | [python](../main/Python/swap_pairs.py) | [javascript](../main/JavaScript/swapPairs.js) |[typescript](../main/TypeScript/swapPairs.ts)| [solidity](../main/Solidity/swapPairs.sol)| [go](../main/Go/swap_pairs/main.go)
+| Decode Morse Code | [python](../main/Python/decode_morse_code.py) |[javascript](../main/JavaScript/decodeMorseCode.js)|[typescript](../main/TypeScript/decodeMorseCode.ts)| | [go](../main/Go/decode_morse_code/main.go)|
 | Sum every other digit | [python](../main/Python/sum_every_other.py) | [javascript](../main/JavaScript/sumEveryOther.js) | [typescript](../main/TypeScript/sumEveryOther.ts) | |[go](../main/Go/sum_every_other/main.go)|
 | Get A1 Reference number | [python](../main/Python/get_a1_ref_num.py) | | | | [go](../main/Go/get_a1_ref_num/main.go)|
 | Are two strings isomorphic ? | [python](../main/Python/is_isomorphic.py) | | | | [go](../main/Go/is_isomorphic/main.go)|
