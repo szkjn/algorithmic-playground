@@ -2,39 +2,39 @@
 
 ## Overview
 
-This repository is a collection of algorithmic exercises and code challenges ([rendezvous with cassidoo](https://cassidoo.co/newsletter/)/[HackerRank](https://www.hackerrank.com/profile/junseraphinsuzu1)/[Codewars](https://www.codewars.com/users/szkjn)) to master best practices in **Python**, **Go**, **Typescript** and other side-projects languages. *All exercises problems are written in comments at the beginning of the corresponding script.*
+This repository is a collection of algorithmic exercises and code challenges ([Rendezvous with cassidoo](https://cassidoo.co/newsletter/) / [HackerRank](https://www.hackerrank.com/profile/junseraphinsuzu1) / [Codewars](https://www.codewars.com/users/szkjn)) to master best practices in **Python**, **Go**, **Typescript** and other side-projects languages. *All exercises problems are written in comments at the beginning of the corresponding script.*
 
 ## Repository structure
 
-- Each language has its own directory (e.g. `Go`, `Python`, `TypeScript`).
+- Each language has its own directory (`Python`, `Go`, `TypeScript`, `Solidity`).
 - Within the `Go` directory, every exercise is contained in its own subdirectory, each with `go.mod`, `main.go` and `main_test.go` files.
 - Other languages are organized similarly, following the best practices of each language.
 
 ## Content summary
 
-||<img src='https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg' width='24'>|<img src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' width='22'>|<img src='https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg' width='24'>|<img src='https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg' width='22'>|<img src='https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png' width='36'>|
-| --- | --- | --- | --- | --- | --- |
-| How many opened doors ? | [python](../main/Python/how_many_opened_doors.py) | | | | |
-| Anti-Divisor | [python](../main/Python/anti_divisor.py) | | | | [go](../main/Go/anti_divisor/main.go)|
-| Combine strings | [python](../main/Python/combine_strings.py) | | | | |
-| Replace consecutive zeros by its length | [python](../main/Python/replace_consecutive_zeros_by_its_length.py) | | | | |
-| Max Subarray | [python](../main/Python/max_subarray.py) | [javascript](../main/JavaScript/maxSubarray.js) |[typescript](../main/TypeScript/maxSubarray.ts)| [solidity](../main/Solidity/maxSubarray.sol)| |
-| Swap Pairs | [python](../main/Python/swap_pairs.py) | [javascript](../main/JavaScript/swapPairs.js) |[typescript](../main/TypeScript/swapPairs.ts)| [solidity](../main/Solidity/swapPairs.sol)| [go](../main/Go/swap_pairs/main.go)
-| Decode Morse Code | [python](../main/Python/decode_morse_code.py) |[javascript](../main/JavaScript/decodeMorseCode.js)|[typescript](../main/TypeScript/decodeMorseCode.ts)| | [go](../main/Go/decode_morse_code/main.go)|
-| Sum every other digit | [python](../main/Python/sum_every_other.py) | [javascript](../main/JavaScript/sumEveryOther.js) | [typescript](../main/TypeScript/sumEveryOther.ts) | |[go](../main/Go/sum_every_other/main.go)|
-| Get A1 Reference number | [python](../main/Python/get_a1_ref_num.py) | | | | [go](../main/Go/get_a1_ref_num/main.go)|
-| Are two strings isomorphic ? | [python](../main/Python/is_isomorphic.py) | | | | [go](../main/Go/is_isomorphic/main.go)|
-| Ceaser Cipher | | | | | [go](../main/Go/ceaser_cipher/main.go)|
-| Mars exploration | | | | | [go](../main/Go/mars_exploration/main.go)|
-| Subsequence string search | |[javascript](../main/JavaScript/subsequenceStringSearch.js)|[typescript](../main/TypeScript/subsequenceStringSearch.ts)| | [go](../main/Go/subsequence_string_search/main.go)|
-| Diagonal difference | | | | | [go](../main/Go/diagonal_difference/main.go)|
-| Min-max sum | | | | | [go](../main/Go/min_max_sum/main.go)|
-| Highest candles |[python](../main/Python/highest_candles.py)| | | | [go](../main/Go/highest_candles/main.go)|
-| Time conversion ||[javascript](../main/JavaScript/timeConversion.js)|[typescript](../main/TypeScript/timeConversion.ts)| | [go](../main/Go/time_conversion/main.go)|
-| Phone Book |||| | [go](../main/Go/phone_book/main.go)|
-| Factorial |||| | [go](../main/Go/factorial/main.go)|
-| Between two sets |||| | [go](../main/Go/between_two_sets/main.go)|
-| Binary numbers |||| | [go](../main/Go/binary_numbers/main.go)|
+||<img src='https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg' width='24'>|<img src='https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png' width='36'>|<img src='https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg' width='24'>|<img src='https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg' width='22'>|
+| --- | --- | --- | --- | --- |
+| How many opened doors ? |[python](../main/Python/how_many_opened_doors.py)||||
+| Anti-Divisor |[python](../main/Python/anti_divisor.py)|[go](../main/Go/anti_divisor/main.go)|||
+| Combine strings |[python](../main/Python/combine_strings.py)||||
+| Replace consecutive zeros by its length |[python](../main/Python/replace_consecutive_zeros_by_its_length.py)||||
+| Max Subarray |[python](../main/Python/max_subarray.py)||[typescript](../main/TypeScript/maxSubarray.ts)|[solidity](../main/Solidity/maxSubarray.sol)|
+| Swap Pairs |[python](../main/Python/swap_pairs.py)|[go](../main/Go/swap_pairs/main.go)|[typescript](../main/TypeScript/swapPairs.ts)|[solidity](../main/Solidity/swapPairs.sol)|
+| Decode Morse Code |[python](../main/Python/decode_morse_code.py)|[go](../main/Go/decode_morse_code/main.go)|[typescript](../main/TypeScript/decodeMorseCode.ts)||
+| Sum every other digit |[python](../main/Python/sum_every_other.py)|[go](../main/Go/sum_every_other/main.go)|[typescript](../main/TypeScript/sumEveryOther.ts)||
+| Get A1 Reference number |[python](../main/Python/get_a1_ref_num.py)|[go](../main/Go/get_a1_ref_num/main.go)|||
+| Are two strings isomorphic ? |[python](../main/Python/is_isomorphic.py)|[go](../main/Go/is_isomorphic/main.go)|||
+| Ceaser Cipher ||[go](../main/Go/ceaser_cipher/main.go)|||
+| Mars exploration ||[go](../main/Go/mars_exploration/main.go)|||
+| Subsequence string search ||[go](../main/Go/subsequence_string_search/main.go)|[typescript](../main/TypeScript/subsequenceStringSearch.ts)||
+| Diagonal difference ||[go](../main/Go/diagonal_difference/main.go)|||
+| Min-max sum ||[go](../main/Go/min_max_sum/main.go)|||
+| Highest candles |[python](../main/Python/highest_candles.py)|[go](../main/Go/highest_candles/main.go)|||
+| Time conversion ||[go](../main/Go/time_conversion/main.go)|[typescript](../main/TypeScript/timeConversion.ts)||
+| Phone Book ||[go](../main/Go/phone_book/main.go)|||
+| Factorial ||[go](../main/Go/factorial/main.go)|||
+| Between two sets ||[go](../main/Go/between_two_sets/main.go)|||
+| Binary numbers ||[go](../main/Go/binary_numbers/main.go)|||
 
 ## CI/CD Pipeline with GitHub Actions
 
