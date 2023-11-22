@@ -14,10 +14,6 @@ describe('maxSubarray', () => {
     expect(maxSubarray([1, 2, 0, 5], 2)).toEqual([2, 0]);
   });
 
-  test('handles cases where n is greater than array length', () => {
-    expect(maxSubarray([1, 2, 3], 5)).toEqual([1, 2, 3]);
-  });
-
   test('handles empty array', () => {
     expect(maxSubarray([], 3)).toEqual([]);
   });

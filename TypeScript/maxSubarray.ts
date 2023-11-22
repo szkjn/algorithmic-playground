@@ -10,7 +10,7 @@ export const sum = (arr: number[]): number => {
     return sum
 }
 
-export const maxSubarray = (arr: number[], n: number): void => {
+export const maxSubarray = (arr: number[], n: number): number[] => {
     let subarray: number[] = []
     for (let i=0; i < arr.length-n+1; i++) {
         const currentArr: number[] = arr.slice(i,i+n)    
@@ -18,8 +18,5 @@ export const maxSubarray = (arr: number[], n: number): void => {
             subarray = currentArr
         }
     }
-    console.log(subarray)
+    return subarray
 }
-
-maxSubarray([-4, 2, -5, 1, 2, 3, 6, -5, 1], 4)
-maxSubarray([1, 2, 0, 5], 2)
