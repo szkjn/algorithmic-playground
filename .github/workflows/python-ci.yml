@@ -25,8 +25,8 @@ jobs:
     - name: Install dependencies
       run: pip install -r Python/requirements.txt
 
-    - name: Lint with flake8
-      run: flake8 ./Python
+    - name: Check code formatting with Black
+      run: black --check ./Python
 
     - name: Run pytest
       run: pytest ./Python
