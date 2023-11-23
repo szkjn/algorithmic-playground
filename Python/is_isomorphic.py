@@ -13,6 +13,7 @@ Example:
 > true
 """
 
+
 def isIsomorphic(s: str, t: str) -> bool:
     mapDict = {}
     for i, _ in enumerate(s):
@@ -21,10 +22,10 @@ def isIsomorphic(s: str, t: str) -> bool:
         else:
             if mapDict[s[i]] != t[i]:
                 return False
-    
+
     return True
 
 
-print(isIsomorphic('abb', 'cdd'))
-print(isIsomorphic('cassidy', '1234567'))
-print(isIsomorphic('cass', '1233f'))
+print(isIsomorphic("abb", "cdd"))
+print(isIsomorphic("cassidy", "1234567"))
+print(isIsomorphic("cass", "1233f"))

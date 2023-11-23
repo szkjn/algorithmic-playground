@@ -17,6 +17,7 @@ Example:
 > 123456789
 """
 
+
 def replaceZeros(digits: str) -> str:
 
     res = ""
@@ -25,7 +26,7 @@ def replaceZeros(digits: str) -> str:
     for i, digit in enumerate(digits):
         if digit == "0":
             count += 1
-            if i == len(digits)-1:
+            if i == len(digits) - 1:
                 res += str(count)
         else:
             if count > 0:

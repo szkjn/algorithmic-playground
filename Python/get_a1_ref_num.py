@@ -16,9 +16,10 @@ AAA -> 703
 
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-def column_number(col_name):
-	col_num = 0
-	for c in col_name:
-		col_num = col_num * len(alphabet) + alphabet.index(c) + 1
 
-	return col_num
+def column_number(col_name):
+    col_num = 0
+    for c in col_name:
+        col_num = col_num * len(alphabet) + alphabet.index(c) + 1
+
+    return col_num

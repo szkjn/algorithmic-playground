@@ -20,15 +20,17 @@ Input Format:
 the height of candles[i].
 """
 
+
 def birthdayCakeCandles(candles: list) -> int:
     res = 0
     max_height = max(candles)
-    
+
     for el in candles:
         if el == max_height:
             res += 1
 
     return res
+
 
 if __name__ == "__main__":
     candlesCount = input("Enter total number of candles:\n")

@@ -9,9 +9,11 @@ and returns how many doors are open after the number of passes.
 Thanks Max for inspiring this question!"
 """
 
+
 def toggle(door):
     door = 0 if door == 1 else 1
     return door
+
 
 def pass_doors(n, nbr_of_passes):
     doors = [1 for el in range(n)]
@@ -23,10 +25,11 @@ def pass_doors(n, nbr_of_passes):
         else:
             for i in range(0, len(doors), el):
                 if i > 0:
-                    doors[i-1] = toggle(doors[i-1])
+                    doors[i - 1] = toggle(doors[i - 1])
 
     count = doors.count(0)
     return count
+
 
 n = 7
 nbr_of_passes = 3
