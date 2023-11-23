@@ -14,8 +14,4 @@ Example:
 def sum_every_other(n: float) -> int:
     n = str(n).replace('.', '')
     result = [int(n[char]) for char in range(1, len(n), 2)]
-    print(sum(result))
-
-sum_every_other(548915381)
-sum_every_other(10)
-sum_every_other(1010.11)
+    return sum(result)

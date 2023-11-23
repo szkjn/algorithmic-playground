@@ -17,15 +17,8 @@ AAA -> 703
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 def column_number(col_name):
-  col_num = 0
-  for c in col_name:
-    col_num = col_num * len(alphabet) + alphabet.index(c) + 1 
-  
-  print(col_num)
+	col_num = 0
+	for c in col_name:
+		col_num = col_num * len(alphabet) + alphabet.index(c) + 1
 
-column_number("A")
-column_number("B")
-column_number("Z")
-column_number("AA")
-column_number("AB")
-column_number("AAA")
+	return col_num

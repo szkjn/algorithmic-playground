@@ -10,16 +10,13 @@ Thanks Max for inspiring this question!"
 """
 
 def toggle(door):
-  
     door = 0 if door == 1 else 1
     return door
 
 def pass_doors(n, nbr_of_passes):
-  
     doors = [1 for el in range(n)]
 
     for el in range(1, nbr_of_passes + 1):
-      
         if el == 1:
             for i, door in enumerate(doors):
                 doors[i] = toggle(door)

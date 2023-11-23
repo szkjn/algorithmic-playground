@@ -33,10 +33,4 @@ def replaceZeros(digits: str) -> str:
                 count = 0
             res += digit
 
-    print(res)
-
-
-replaceZeros('1234500362000440')
-replaceZeros('123450036200044')
-replaceZeros('000000000000')
-replaceZeros('123456789')
+    return res

@@ -13,7 +13,7 @@ def combineStrings(arr: list, n: int) -> list:
     
     while len(arr) > 0:
 
-        if new_str == "":           
+        if new_str == "":
             new_str = arr[0]
             arr.pop(0)
             if len(arr) == 0: break
@@ -33,7 +33,7 @@ def combineStrings(arr: list, n: int) -> list:
             res.append(new_str)
             new_str = ""
 
-        if len(arr) == 1:         
+        if len(arr) == 1:
             res.append(arr[0])
             arr.pop(0)
             if len(arr) == 0: break
@@ -41,8 +41,8 @@ def combineStrings(arr: list, n: int) -> list:
     if len(new_str) > 0:
         res.append(new_str)
 
-    print(res)
+    return res
 
-combineStrings(["a", "b", "c", "d", "e", "f", "g"], 5)
-combineStrings(["a", "b", "c", "d", "e", "f", "g"], 12)
-combineStrings(["alpha", "beta", "gamma", "delta", "epsilon"], 20)
+print(combineStrings(["a", "b", "c", "d", "e", "f", "g"], 5))
+print(combineStrings(["a", "b", "c", "d", "e", "f", "g"], 12))
+print(combineStrings(["alpha", "beta", "gamma", "delta", "epsilon"], 20))

@@ -9,22 +9,20 @@ Interview question of the week by Cassidy Williams (issue #273) :
   
 """
 
-def antidivisor(n):
+def antidivisor(n) -> list:
+	res = []
 
-  res = []
-  
-  for k in range(2, n):
-    
-    if k % 2 == 0:
-      if n % k == k / 2:
-        res.append(k)  
-    else:
-      if (
-        n % k == (k-1)/2 
-        or n % k == (k+1)/2
-      ):
-        res.append(k)
-  
-  print(res)
+	for k in range(2, n):
+		if k % 2 == 0:
+			if n % k == k / 2:
+				res.append(k)
+		else:
+			if (
+				n % k == (k-1)/2
+				or n % k == (k+1)/2
+			):
+				res.append(k)
+	
+	return res
 
-antidivisor(234)
+print(antidivisor(234))

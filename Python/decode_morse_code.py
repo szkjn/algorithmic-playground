@@ -19,16 +19,11 @@ MORSE_CODE = {
     '.-..-.': '"', '...-..-': '$', '.--.-.': '@', '...---...': 'SOS'
 }
 
-def decode_morse(morse_code): 
+def decode_morse(morse_code):
     words = morse_code.strip().split('   ')
     result = []
-    
-    for word in words: 
+
+    for word in words:
         result.append(''.join([MORSE_CODE[letter] for letter in word.split(' ')]))
 
     return ' '.join(result)
-  
-  
-decode_morse('.... . -.--   .--- ..- -.. .')  # output: 'HEY JUDE'
-decode_morse('...---...')  # output : 'SOS'
-decode_morse('...   ---   ...')  # output: 'S O S'
