@@ -23,12 +23,10 @@ jobs:
         python-version: '3.10'
 
     - name: Install dependencies
-        run: pip install -r ./Python/requirements.txt
-        working-directory: ./Python
+      run: pip install -r Python/requirements.txt
 
     - name: Lint with flake8
       run: flake8 ./Python
-      Only if you wish to include linting
 
     - name: Run pytest
       run: pytest ./Python
