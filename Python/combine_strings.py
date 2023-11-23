@@ -8,12 +8,10 @@ the max size.
 
 
 def combineStrings(arr: list, n: int) -> list:
-
     res = []
     new_str = ""
 
     while len(arr) > 0:
-
         if new_str == "":
             new_str = arr[0]
             arr.pop(0)

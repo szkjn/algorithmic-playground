@@ -8,7 +8,6 @@ versus an array?
 
 
 def swap_pairs(arr: list) -> list:
-
     results = []
 
     assert len(arr) % 2 == 0

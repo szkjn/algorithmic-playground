@@ -19,7 +19,6 @@ Example:
 
 
 def replaceZeros(digits: str) -> str:
-
     res = ""
     count = 0
 
