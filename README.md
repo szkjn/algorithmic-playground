@@ -35,6 +35,7 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 | Factorial ||[go](../main/Go/factorial/main.go)|||
 | Between two sets ||[go](../main/Go/between_two_sets/main.go)|||
 | Binary numbers ||[go](../main/Go/binary_numbers/main.go)|||
+| Hourglass in 2-d array ||[go](../main/Go/hourglass_in_2d_arr/main.go)|||
 
 ## CI/CD Pipeline with GitHub Actions
 
