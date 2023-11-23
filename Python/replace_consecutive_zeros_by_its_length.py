@@ -17,7 +17,6 @@ Example:
 > 123456789
 """
 
-
 def replaceZeros(digits: str) -> str:
 
     res = ""

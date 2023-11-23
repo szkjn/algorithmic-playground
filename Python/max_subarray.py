@@ -7,7 +7,6 @@ the order of the original array, and if n is greater than arr.length,
 you can choose what you want to return.
 """
 
-
 def max_subarray(arr: list, n: int) -> list:
 
     subarray = []
@@ -17,7 +16,6 @@ def max_subarray(arr: list, n: int) -> list:
             subarray = arr[i:i+n]
 
     print(subarray)
-
 
 max_subarray([-4, 2, -5, 1, 2, 3, 6, -5, 1], 4)
 max_subarray([1, 2, 0, 5], 2)

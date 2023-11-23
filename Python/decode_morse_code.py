@@ -19,7 +19,6 @@ MORSE_CODE = {
     '.-..-.': '"', '...-..-': '$', '.--.-.': '@', '...---...': 'SOS'
 }
 
-
 def decode_morse(morse_code): 
     words = morse_code.strip().split('   ')
     result = []

@@ -6,7 +6,6 @@ about: How would your code change if this were a linked list,
 versus an array?
 """
 
-
 def swap_pairs(arr: list) -> list:
 
     results = []
@@ -18,7 +17,6 @@ def swap_pairs(arr: list) -> list:
         results.append(arr.pop(0))
 
     print(results)
-
 
 swap_pairs([1, 2, 3, 4])
 swap_pairs([])
