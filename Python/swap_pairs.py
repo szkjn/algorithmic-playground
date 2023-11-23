@@ -17,6 +17,3 @@ def swap_pairs(arr: list) -> list:
         results.append(arr.pop(0))
 
     print(results)
-
-swap_pairs([1, 2, 3, 4])
-swap_pairs([])
