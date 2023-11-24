@@ -36,6 +36,7 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 | Between two sets ||[go](../main/Go/between_two_sets/main.go)|||
 | Binary numbers ||[go](../main/Go/binary_numbers/main.go)|||
 | Hourglass in 2-d array ||[go](../main/Go/hourglass_in_2d_arr/main.go)|||
+| Breaking records ||[go](../main/Go/breaking_records/main.go)|||
 
 ## CI/CD Pipeline with GitHub Actions
 

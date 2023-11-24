@@ -5,3 +5,7 @@ old/
 
 # TypeScript related
 node_modules/
+
+# Python additional files
+__pycache__
+*.pyc
