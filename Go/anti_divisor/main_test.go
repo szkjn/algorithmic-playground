@@ -32,6 +32,7 @@ func TestAntiDivisors(t *testing.T) {
 		n        int
 		expected []int
 	}{
+		{1, []int{}},
 		{5, []int{2, 3}},
 		{10, []int{3, 4, 7}},
 		{105, []int{2, 6, 10, 11, 14, 19, 30, 42, 70}},
