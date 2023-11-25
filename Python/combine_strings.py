@@ -7,7 +7,7 @@ the max size.
 """
 
 
-def combineStrings(arr: list, n: int) -> list:
+def combine_strings(arr: list, n: int) -> list:
     res = []
     new_str = ""
 
@@ -38,8 +38,3 @@ def combineStrings(arr: list, n: int) -> list:
         res.append(new_str)
 
     return res
-
-
-print(combineStrings(["a", "b", "c", "d", "e", "f", "g"], 5))
-print(combineStrings(["a", "b", "c", "d", "e", "f", "g"], 12))
-print(combineStrings(["alpha", "beta", "gamma", "delta", "epsilon"], 20))
