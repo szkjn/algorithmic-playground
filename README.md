@@ -37,6 +37,7 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 | Binary numbers ||[go](../main/Go/binary_numbers/main.go)|||
 | Hourglass in 2-d array ||[go](../main/Go/hourglass_in_2d_arr/main.go)|||
 | Breaking records ||[go](../main/Go/breaking_records/main.go)|||
+| Subarray division ||[go](../main/Go/subarray_division/main.go)|||
 
 ## CI/CD Pipeline with GitHub Actions
 
