@@ -38,4 +38,3 @@ def pass_doors(n, nbr_of_passes):
 
     count = doors.count(0)
     return count
-
