@@ -21,7 +21,7 @@ the height of candles[i].
 """
 
 
-def birthdayCakeCandles(candles: list) -> int:
+def birthday_cake_candles(candles: list) -> int:
     res = 0
     max_height = max(candles)
 
@@ -37,5 +37,5 @@ if __name__ == "__main__":
     candlesTemp = input(f"Enter {candlesCount} candle's heights:\n")
     candles = candlesTemp.split(" ")
 
-    res = birthdayCakeCandles(candles)
+    res = birthday_cake_candles(candles)
     print("Total tallest candle(s):", res)
