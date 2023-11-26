@@ -15,8 +15,4 @@ def max_subarray(arr: list, n: int) -> list:
         if sum(subarray) < sum(arr[i : i + n]):
             subarray = arr[i : i + n]
 
-    print(subarray)
-
-
-max_subarray([-4, 2, -5, 1, 2, 3, 6, -5, 1], 4)
-max_subarray([1, 2, 0, 5], 2)
+    return subarray
