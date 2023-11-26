@@ -17,7 +17,7 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 | How many opened doors ? |[python](../main/Python/how_many_opened_doors.py)||||
 | Anti-Divisor |[python](../main/Python/anti_divisor.py)|[go](../main/Go/anti_divisor/main.go)|||
 | Combine strings |[python](../main/Python/combine_strings.py)||||
-| Replace consecutive zeros by its length |[python](../main/Python/replace_consecutive_zeros_by_its_length.py)||||
+| Zero run replacer |[python](../main/Python/zero_run_replacer.py)||||
 | Max Subarray |[python](../main/Python/max_subarray.py)||[typescript](../main/TypeScript/maxSubarray.ts)|[solidity](../main/Solidity/maxSubarray.sol)|
 | Swap Pairs |[python](../main/Python/swap_pairs.py)|[go](../main/Go/swap_pairs/main.go)|[typescript](../main/TypeScript/swapPairs.ts)|[solidity](../main/Solidity/swapPairs.sol)|
 | Decode Morse Code |[python](../main/Python/decode_morse_code.py)|[go](../main/Go/decode_morse_code/main.go)|[typescript](../main/TypeScript/decodeMorseCode.ts)||
@@ -38,6 +38,7 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 | Hourglass in 2-d array ||[go](../main/Go/hourglass_in_2d_arr/main.go)|||
 | Breaking records ||[go](../main/Go/breaking_records/main.go)|||
 | Subarray division ||[go](../main/Go/subarray_division/main.go)|||
+| Max difference solver |[python](../main/Python/max_difference_solver.py)||||
 
 ## CI/CD Pipeline with GitHub Actions
 

@@ -8,4 +8,5 @@ node_modules/
 
 # Python additional files
 __pycache__
+.pytest_cache
 *.pyc
