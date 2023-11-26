@@ -3,7 +3,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from how_many_opened_doors import pass_doors
+from scripts.how_many_opened_doors import pass_doors
 
 
 def test_pass_doors():

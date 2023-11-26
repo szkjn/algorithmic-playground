@@ -4,7 +4,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import pytest
-from zero_run_replacer import replace_zeros
+from scripts.zero_run_replacer import replace_zeros
 
 
 @pytest.mark.parametrize(

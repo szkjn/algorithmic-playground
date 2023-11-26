@@ -9,11 +9,12 @@ versus an array?
 
 def swap_pairs(arr: list) -> list:
     results = []
+    i = 0
 
-    assert len(arr) % 2 == 0
+    while i < len(arr):
+        if i + 1 < len(arr):
+            results.append(arr[i + 1])
+        results.append(arr[i])
+        i += 2
 
-    while len(arr) > 0:
-        results.append(arr.pop(1))
-        results.append(arr.pop(0))
-
-    print(results)
+    return results

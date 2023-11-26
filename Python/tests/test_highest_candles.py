@@ -3,7 +3,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from highest_candles import birthdayCakeCandles
+from scripts.highest_candles import birthdayCakeCandles
 
 
 def test_birthdayCakeCandles():

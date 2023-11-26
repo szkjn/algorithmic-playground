@@ -4,7 +4,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import pytest
-from max_subarray import max_subarray
+from scripts.max_subarray import max_subarray
 
 
 @pytest.mark.parametrize(

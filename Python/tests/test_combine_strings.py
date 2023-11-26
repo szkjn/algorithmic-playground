@@ -3,7 +3,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from combine_strings import combine_strings
+from scripts.combine_strings import combine_strings
 
 
 def test_combine_strings():

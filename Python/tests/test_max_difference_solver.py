@@ -4,7 +4,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import pytest
-from max_difference_solver import Difference
+from scripts.max_difference_solver import Difference
 
 
 @pytest.mark.parametrize(

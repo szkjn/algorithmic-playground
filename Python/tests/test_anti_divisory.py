@@ -3,7 +3,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from anti_divisor import antidivisor
+from scripts.anti_divisor import antidivisor
 
 
 def test_antidivisor():
