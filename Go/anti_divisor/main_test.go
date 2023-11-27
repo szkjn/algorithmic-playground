@@ -1,11 +1,11 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"os"
 	"reflect"
 	"testing"
-
-	"github.com/szkjn/algorithmic-playground/Go/test_utils"
 )
 
 type TestCase struct {
@@ -13,8 +13,24 @@ type TestCase struct {
 	Expected []int `json:"expected"`
 }
 
+func loadTestData(filePath string) ([]TestCase, error) {
+	file, err := os.Open(filePath)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	var testCases []TestCase
+	err = json.NewDecoder(file).Decode(&testCases)
+	if err != nil {
+		return nil, err
+	}
+
+	return testCases, nil
+}
+
 func TestAntiDivisors(t *testing.T) {
-	testCases, err := test_utils.LoadTestData("../../test_data/anti_divisor_test_data.json")
+	testCases, err := loadTestData("../../test_data/anti_divisor_test_data.json")
 	if err != nil {
 		t.Fatalf("Failed to load test data: %v", err)
 	}
