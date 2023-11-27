@@ -39,6 +39,7 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 | Breaking records ||[go](../main/Go/breaking_records/main.go)|||
 | Subarray division ||[go](../main/Go/subarray_division/main.go)|||
 | Max difference solver |[python](../main/Python/max_difference_solver.py)||||
+| Linked list construction |[python](../main/Python/linked_list_construction.py)||||
 
 ## CI/CD Pipeline with GitHub Actions
 
