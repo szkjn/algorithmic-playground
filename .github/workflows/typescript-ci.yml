@@ -1,4 +1,4 @@
-name: TypeScript Build and Test
+name: TypeScript CI
 
 on:
   push:

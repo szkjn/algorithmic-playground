@@ -8,7 +8,7 @@ More information here : https://oeis.org/A066272/a066272a.html
 """
 
 
-def antidivisor(n) -> list:
+def anti_divisor(n) -> list:
     res = []
 
     for k in range(2, n):
@@ -20,6 +20,3 @@ def antidivisor(n) -> list:
                 res.append(k)
 
     return res
-
-
-print(antidivisor(234))
