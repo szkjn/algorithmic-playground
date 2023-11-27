@@ -14,22 +14,22 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 
 ||<img src='https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg' width='24'>|<img src='https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png' width='36'>|<img src='https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg' width='24'>|<img src='https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg' width='22'>|
 | --- | --- | --- | --- | --- |
-| How many opened doors ? |[python](../main/Python/how_many_opened_doors.py)||||
-| Anti-Divisor |[python](../main/Python/anti_divisor.py)|[go](../main/Go/anti_divisor/main.go)|||
-| Combine strings |[python](../main/Python/combine_strings.py)||||
-| Zero run replacer |[python](../main/Python/zero_run_replacer.py)||||
-| Max Subarray |[python](../main/Python/max_subarray.py)||[typescript](../main/TypeScript/maxSubarray.ts)|[solidity](../main/Solidity/maxSubarray.sol)|
-| Swap Pairs |[python](../main/Python/swap_pairs.py)|[go](../main/Go/swap_pairs/main.go)|[typescript](../main/TypeScript/swapPairs.ts)|[solidity](../main/Solidity/swapPairs.sol)|
-| Decode Morse Code |[python](../main/Python/decode_morse_code.py)|[go](../main/Go/decode_morse_code/main.go)|[typescript](../main/TypeScript/decodeMorseCode.ts)||
-| Sum every other digit |[python](../main/Python/sum_every_other.py)|[go](../main/Go/sum_every_other/main.go)|[typescript](../main/TypeScript/sumEveryOther.ts)||
-| Get A1 Reference number |[python](../main/Python/get_a1_ref_num.py)|[go](../main/Go/get_a1_ref_num/main.go)|||
-| Are two strings isomorphic ? |[python](../main/Python/is_isomorphic.py)|[go](../main/Go/is_isomorphic/main.go)|||
+| How many opened doors ? |[python](../main/scripts/Python/how_many_opened_doors.py)||||
+| Anti-Divisor |[python](../main/scripts/Python/anti_divisor.py)|[go](../main/Go/anti_divisor/main.go)|||
+| Combine strings |[python](../main/scripts/Python/combine_strings.py)||||
+| Zero run replacer |[python](../main/scripts/Python/zero_run_replacer.py)||||
+| Max Subarray |[python](../main/scripts/Python/max_subarray.py)||[typescript](../main/TypeScript/maxSubarray.ts)|[solidity](../main/Solidity/maxSubarray.sol)|
+| Swap Pairs |[python](../main/scripts/Python/swap_pairs.py)|[go](../main/Go/swap_pairs/main.go)|[typescript](../main/TypeScript/swapPairs.ts)|[solidity](../main/Solidity/swapPairs.sol)|
+| Decode Morse Code |[python](../main/scripts/Python/decode_morse_code.py)|[go](../main/Go/decode_morse_code/main.go)|[typescript](../main/TypeScript/decodeMorseCode.ts)||
+| Sum every other digit |[python](../main/scripts/Python/sum_every_other.py)|[go](../main/Go/sum_every_other/main.go)|[typescript](../main/TypeScript/sumEveryOther.ts)||
+| Get A1 Reference number |[python](../main/scripts/Python/get_a1_ref_num.py)|[go](../main/Go/get_a1_ref_num/main.go)|||
+| Are two strings isomorphic ? |[python](../main/scripts/Python/is_isomorphic.py)|[go](../main/Go/is_isomorphic/main.go)|||
 | Ceaser Cipher ||[go](../main/Go/ceaser_cipher/main.go)|||
 | Mars exploration ||[go](../main/Go/mars_exploration/main.go)|||
 | Subsequence string search ||[go](../main/Go/subsequence_string_search/main.go)|[typescript](../main/TypeScript/subsequenceStringSearch.ts)||
 | Diagonal difference ||[go](../main/Go/diagonal_difference/main.go)|||
 | Min-max sum ||[go](../main/Go/min_max_sum/main.go)|||
-| Highest candles |[python](../main/Python/highest_candles.py)|[go](../main/Go/highest_candles/main.go)|||
+| Highest candles |[python](../main/scripts/Python/highest_candles.py)|[go](../main/Go/highest_candles/main.go)|||
 | Time conversion ||[go](../main/Go/time_conversion/main.go)|[typescript](../main/TypeScript/timeConversion.ts)||
 | Phone Book ||[go](../main/Go/phone_book/main.go)|||
 | Factorial ||[go](../main/Go/factorial/main.go)|||
@@ -38,8 +38,8 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 | Hourglass in 2-d array ||[go](../main/Go/hourglass_in_2d_arr/main.go)|||
 | Breaking records ||[go](../main/Go/breaking_records/main.go)|||
 | Subarray division ||[go](../main/Go/subarray_division/main.go)|||
-| Max difference solver |[python](../main/Python/max_difference_solver.py)||||
-| Linked list construction |[python](../main/Python/linked_list_construction.py)||||
+| Max difference solver |[python](../main/scripts/Python/max_difference_solver.py)||||
+| Linked list construction |[python](../main/scripts/Python/linked_list_construction.py)||||
 
 ## CI/CD Pipeline with GitHub Actions
 
