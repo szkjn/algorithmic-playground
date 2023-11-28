@@ -24,7 +24,7 @@ jobs:
         gistID: d63aa1a5139a8720d9142cb6c1c734c2
         filename: playground-python-badge.json
         label: Python (tests/scripts)
-        message: ${{ env.PYTHON_SCRIPTS }} / ${{ env.PYTHON_TESTS }}
+        message: ${{ env.PYTHON_TESTS }} / ${{ env.PYTHON_SCRIPTS }}
         color: lightblue
 
     - name: Create Go Badge
@@ -34,7 +34,7 @@ jobs:
         gistID: d63aa1a5139a8720d9142cb6c1c734c2
         filename: playground-go-badge.json
         label: Go (tests/scripts)
-        message: ${{ env.GO_SCRIPTS }} / ${{ env.GO_TESTS }}
+        message: ${{ env.GO_TESTS }} / ${{ env.GO_SCRIPTS }}
         color: lightgreen
   
     - name: Create TypeScript Badge
@@ -44,7 +44,7 @@ jobs:
         gistID: d63aa1a5139a8720d9142cb6c1c734c2
         filename: playground-ts-badge.json
         label: TypeScript (tests/scripts)
-        message: ${{ env.TS_SCRIPTS }} / ${{ env.TS_TESTS }}
+        message: ${{ env.TS_TESTS }} / ${{ env.TS_SCRIPTS }}
         color: lightgrey
          
   
