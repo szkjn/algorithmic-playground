@@ -12,6 +12,8 @@ jobs:
       run: |
         echo "PYTHON_SCRIPTS=$(find Python/scripts -name '*.py' | wc -l)" >> $GITHUB_ENV
         echo "PYTHON_TESTS=$(find Python/tests -name '*.py' | wc -l)" >> $GITHUB_ENV
+        echo "GO_SCRIPTS=$(find Go -name 'main.go' | wc -l)" >> $GITHUB_ENV
+        echo "GO_TESTS=$(find Go -name 'main_test.go' | wc -l)" >> $GITHUB_ENV
 
     - name: Create Python Badge
       uses: schneegans/dynamic-badges-action@v1.3.0
@@ -21,7 +23,17 @@ jobs:
         filename: playground-python-badge.json
         label: Python (tests/scripts)
         message: ${{ env.PYTHON_SCRIPTS }} / ${{ env.PYTHON_TESTS }}
-        color: lightgrey
+        color: gold
 
+    - name: Create Go Badge
+      uses: schneegans/dynamic-badges-action@v1.3.0
+      with:
+        auth: ${{ secrets.GIST_SECRET }}
+        gistID: d63aa1a5139a8720d9142cb6c1c734c2
+        filename: playground-go-badge.json
+        label: Go (tests/scripts)
+        message: ${{ env.GO_SCRIPTS }} / ${{ env.GO_TESTS }}
+        color: green
   
+      
   
