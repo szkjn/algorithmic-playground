@@ -13,24 +13,15 @@ jobs:
         echo "PYTHON_SCRIPTS=$(find Python/scripts -name '*.py' | wc -l)" >> $GITHUB_ENV
         echo "PYTHON_TESTS=$(find Python/tests -name '*.py' | wc -l)" >> $GITHUB_ENV
 
-    - name: Create Python Scripts Badge
+    - name: Create Python Badge
       uses: schneegans/dynamic-badges-action@v1.3.0
       with:
         auth: ${{ secrets.GIST_SECRET }}
         gistID: d63aa1a5139a8720d9142cb6c1c734c2
         filename: playground-python-scripts-badge.json
-        label: Python Scripts
-        message: ${{ env.PYTHON_SCRIPTS }}
+        label: Python Tests / Scripts
+        message: ${{ env.PYTHON_SCRIPTS }} / ${{ env.PYTHON_TESTS }}
         color: lightgrey
 
-    - name: Create Python Tests Badge
-      uses: schneegans/dynamic-badges-action@v1.3.0
-      with:
-        auth: ${{ secrets.GIST_SECRET }}
-        gistID: d63aa1a5139a8720d9142cb6c1c734c2
-        filename: playground-python-tests-badge.json
-        label: Python Scripts
-        message: ${{ env.PYTHON_SCRIPTS }}
-        color: lightblue
   
   
