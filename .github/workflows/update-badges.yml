@@ -18,8 +18,8 @@ jobs:
       with:
         auth: ${{ secrets.GIST_SECRET }}
         gistID: d63aa1a5139a8720d9142cb6c1c734c2
-        filename: playground-python-scripts-badge.json
-        label: Python Tests / Scripts
+        filename: playground-python-badge.json
+        label: Python (tests/scripts)
         message: ${{ env.PYTHON_SCRIPTS }} / ${{ env.PYTHON_TESTS }}
         color: lightgrey
 
