@@ -12,7 +12,7 @@ import (
 func subarrayDivision(s []int32, d int32, m int32) int32 {
 	var count int32 = 0
 
-	for i, _ := range s {
+	for i := range s {
 		var sum int32 = 0
 		for j := 0; j < int(m); j++ {
 			if i+j < len(s) {
