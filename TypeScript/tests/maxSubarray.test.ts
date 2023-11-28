@@ -1,4 +1,4 @@
-import { sum, maxSubarray } from './maxSubarray';
+import { sum, maxSubarray } from '../src/maxSubarray';
 
 describe('sum', () => {
   test('calculates the sum of array elements', () => {

@@ -1,4 +1,4 @@
-import { swapPairs } from './swapPairs'
+import { swapPairs } from '../src/swapPairs'
 
 describe('swapPairs', () => {
   test('swaps pairs in an array of integers', () => {

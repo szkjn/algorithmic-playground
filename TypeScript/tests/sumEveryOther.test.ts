@@ -1,4 +1,4 @@
-import { sumEveryOtherTS } from './sumEveryOther'
+import { sumEveryOtherTS } from '../src/sumEveryOther'
 
 describe('sumEveryOtherTS', () => {
   test('calculates the sum of every other digit', () => {

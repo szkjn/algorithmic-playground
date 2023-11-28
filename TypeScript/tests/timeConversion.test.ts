@@ -1,4 +1,4 @@
-import { timeConversion } from './timeConversion'
+import { timeConversion } from '../src/timeConversion'
 
 describe('timeConversion', () => {
   test('returns time in 24-hour format ', () => {

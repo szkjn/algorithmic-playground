@@ -1,4 +1,4 @@
-import { subsequenceStringSearch } from './subsequenceStringSearch'
+import { subsequenceStringSearch } from '../src/subsequenceStringSearch'
 
 describe('subsequenceStringSearch', () => {
     test('returns "YES" if subsequence is contained in "hackerrank", else "NO"', () => {

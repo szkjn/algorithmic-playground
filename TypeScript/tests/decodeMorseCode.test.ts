@@ -1,4 +1,4 @@
-import { decodeMorseCode } from './decodeMorseCode'
+import { decodeMorseCode } from '../src/decodeMorseCode'
 
 describe('decodeMorseCode', () => {
   test('converts morse code into natural language', () => {
