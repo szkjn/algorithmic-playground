@@ -17,7 +17,7 @@ import (
 	"strings"
 )
 
-func divisibleSumPairs(n int32, k int32, ar []int32) int32 {
+func divisibleSumPairs(n, k int32, ar []int32) int32 {
 	var res int32
 	for i := 0; i < int(n); i++ {
 		for j := i + 1; j < int(n); j++ {

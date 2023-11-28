@@ -30,7 +30,7 @@ func loadTestData(filePath string) ([]TestCase, error) {
 }
 
 func TestAntiDivisors(t *testing.T) {
-	testCases, err := loadTestData("../../test_data/anti_divisor_test_data.json")
+	testCases, err := loadTestData("../../test_data/anti_divisor.json")
 	if err != nil {
 		t.Fatalf("Failed to load test data: %v", err)
 	}
