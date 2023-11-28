@@ -6,6 +6,7 @@
 
 ![Python (tests/scripts)](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/szkjn/d63aa1a5139a8720d9142cb6c1c734c2/raw/playground-python-badge.json)
 ![Go (tests/scripts)](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/szkjn/d63aa1a5139a8720d9142cb6c1c734c2/raw/playground-go-badge.json)
+![TypeScript (tests/scripts)](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/szkjn/d63aa1a5139a8720d9142cb6c1c734c2/raw/playground-ts-badge.json)
 
 ## Overview
 
