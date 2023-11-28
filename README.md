@@ -5,7 +5,6 @@
 ![example workflow](https://github.com/szkjn/algorithmic-playground/actions/workflows/typescript-ci.yml/badge.svg)
 
 ![Python scripts](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/szkjn/d63aa1a5139a8720d9142cb6c1c734c2/raw/playground-python-scripts-badge.json)
-![Python tests](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/szkjn/d63aa1a5139a8720d9142cb6c1c734c2/raw/playground-python-tests-badge.json)
 
 ## Overview
 
