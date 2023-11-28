@@ -4,6 +4,9 @@
 ![example workflow](https://github.com/szkjn/algorithmic-playground/actions/workflows/go-ci.yml/badge.svg)
 ![example workflow](https://github.com/szkjn/algorithmic-playground/actions/workflows/typescript-ci.yml/badge.svg)
 
+![Python scripts](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/szkjn/d63aa1a5139a8720d9142cb6c1c734c2/raw/playground-python-scripts-badge.json)
+![Python tests](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/szkjn/d63aa1a5139a8720d9142cb6c1c734c2/raw/playground-python-tests-badge.json)
+
 ## Overview
 
 This repository is a collection of algorithmic exercises and code challenges ([Rendezvous with cassidoo](https://cassidoo.co/newsletter/) / [HackerRank](https://www.hackerrank.com/profile/junseraphinsuzu1) / [Codewars](https://www.codewars.com/users/szkjn)) to master best practices in **Python**, **Go**, **Typescript** and other side-projects languages. *All exercises problems are written in comments at the beginning of the corresponding script.*

@@ -1,27 +1,15 @@
 /*
-Given a base-10 integer, n, convert it to binary (base-2). Then find and print the
-base-10 integer denoting the maximum number of consecutive 1's in n's binary
-representation.
+Write a function that converts a base-10 integer n to its binary representation
+and then finds the maximum number of consecutive 1s in this binary form. The
+task is to parse the binary string of n and count the longest sequence of
+consecutive 1s.
 
-Example:
-- The binary representation of 125 is 1111101. In base-10, there are 5 and 1
-consecutive ones in two groups. Print the maximum, 5.
+The input is a single integer n, representing the number in base-10.
+The output should be a base-10 integer indicating the longest run of consecutive
+1s in n's binary representation.
 
-Input Format:
-- A single integer, n.
-
-Output Format:
-- Print a single base-10 integer that denotes the maximum number of consecutive 1's
-in the binary representation of n.
-
-Sample Input 1:
-5
-Sample Output 1:
-1
-Sample Input 2:
-13
-Sample Output 2:
-2
+For example, given the input 125, its binary form is 1111101. The longest
+sequence of consecutive 1s is 5, so the output is 5.
 */
 
 package main
