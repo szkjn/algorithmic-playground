@@ -1,5 +1,9 @@
 # Algorithmic Playground
 
+![example workflow](https://github.com/szkjn/algorithmic-playground/actions/workflows/python-ci.yml/badge.svg)
+![example workflow](https://github.com/szkjn/algorithmic-playground/actions/workflows/go-ci.yml/badge.svg)
+![example workflow](https://github.com/szkjn/algorithmic-playground/actions/workflows/typescript-ci.yml/badge.svg)
+
 ## Overview
 
 This repository is a collection of algorithmic exercises and code challenges ([Rendezvous with cassidoo](https://cassidoo.co/newsletter/) / [HackerRank](https://www.hackerrank.com/profile/junseraphinsuzu1) / [Codewars](https://www.codewars.com/users/szkjn)) to master best practices in **Python**, **Go**, **Typescript** and other side-projects languages. *All exercises problems are written in comments at the beginning of the corresponding script.*
