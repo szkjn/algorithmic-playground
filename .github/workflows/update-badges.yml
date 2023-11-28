@@ -25,7 +25,7 @@ jobs:
         filename: playground-python-badge.json
         label: Python (tests/scripts)
         message: ${{ env.PYTHON_TESTS }} / ${{ env.PYTHON_SCRIPTS }}
-        color: lightblue
+        color: lightgold
 
     - name: Create Go Badge
       uses: schneegans/dynamic-badges-action@v1.3.0
@@ -45,6 +45,6 @@ jobs:
         filename: playground-ts-badge.json
         label: TypeScript (tests/scripts)
         message: ${{ env.TS_TESTS }} / ${{ env.TS_SCRIPTS }}
-        color: lightgrey
+        color: lightblue
          
   
