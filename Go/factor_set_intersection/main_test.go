@@ -29,7 +29,7 @@ func loadTestData(filePath string) ([]TestCase, error) {
 }
 
 func TestGetTotalX(t *testing.T) {
-	testCases, err := loadTestData("../../test_data/between_two_sets.json")
+	testCases, err := loadTestData("../../test_data/factor_set_intersection.json")
 	if err != nil {
 		t.Fatalf("Failed to load test data: %v", err)
 	}

@@ -1,3 +1,13 @@
+/*
+Write a program to analyze a list of game scores and determine how many times
+a player breaks their highest and lowest score records. The first input is an
+integer representing the number of scores. The second input is a space-separated
+list of integers representing the scores.
+
+The program should output two integers: the first representing the count of new
+high score records, and the second representing the count of new low score records.
+*/
+
 package main
 
 import (
@@ -9,7 +19,7 @@ import (
 	"strings"
 )
 
-func breakingRecords(scores []int32) []int32 {
+func recordBreakCounter(scores []int32) []int32 {
 	res := []int32{0, 0}
 	var most, least int32 = 0, 0
 
@@ -49,7 +59,7 @@ func main() {
 		scores = append(scores, scoresItem)
 	}
 
-	result := breakingRecords(scores)
+	result := recordBreakCounter(scores)
 
 	fmt.Printf("%d %d", result[0], result[1])
 }
