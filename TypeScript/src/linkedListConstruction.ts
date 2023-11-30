@@ -34,7 +34,7 @@ class Solution {
     }
 
     insert(head: MyNode | null, data: number): MyNode {
-        let newNode = new MyNode(data);
+        const newNode = new MyNode(data);
         if (head === null) {
             head = newNode;
         } else {
@@ -52,7 +52,7 @@ const mylist = new Solution();
 let head: MyNode | null = null;
 
 rl.question("Enter number of elements: ", (T) => {
-    let numberOfElements = parseInt(T);
+    const numberOfElements = parseInt(T);
 
     const readElement = (i: number) => {
         if (i < numberOfElements) {

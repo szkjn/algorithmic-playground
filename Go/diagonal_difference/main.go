@@ -16,8 +16,9 @@ Return:
 - int: the absolute diagonal difference
 
 Input Format:
-- The first line contains a single integer, n, the number of rows and columns in the square matrix .
-- Each of the next n lines describes a row, arr[i], and consists of n space-separated integers arr[i][j].
+- First line contains a single integer, n, the number of rows and columns in the square matrix
+- Each of the next n lines describes a row, arr[i], and consists of n space-separated integers
+arr[i][j].
 
 Constraints:
 - -100 <= arr[i][j] <= 100

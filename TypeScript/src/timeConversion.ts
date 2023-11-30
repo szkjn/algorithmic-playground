@@ -28,7 +28,7 @@ export function timeConversion(s: string): string {
     const hh: string = s.substring(0, 2);
     const meridiem: string = s.substring(8).trim();
 
-    let hhInt: number = parseInt(hh, 10);
+    const hhInt: number = parseInt(hh, 10);
     if (isNaN(hhInt)) {
         throw new Error("Invalid hour format");
     }

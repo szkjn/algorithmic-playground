@@ -58,6 +58,11 @@ This repository is a collection of algorithmic exercises and code challenges ([R
         cd algorithmic-playground/Python/scripts
         python <name_of_script>.py
 
+- To run linter :
+
+        cd algorithmic-playground/Python/
+        black .
+
 - To run tests :
 
         cd algorithmic-playground/Python/
@@ -81,6 +86,11 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 
         cd algorithmic-playground/TypeScript/src
         ts-node <name_of_script>
+
+- To run linter :
+
+        cd algorithmic-playground/TypeScript/
+        ./node_modules/.bin/eslint .
 
 - To run tests :
 

@@ -21,9 +21,13 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '16'
-    
+        
     - name: Install dependencies
       run: npm install
+      working-directory: ./TypeScript
+
+    - name: Lint with ESLint
+      run: npm run lint
       working-directory: ./TypeScript
     
     - name: Run TypeScript Tests
