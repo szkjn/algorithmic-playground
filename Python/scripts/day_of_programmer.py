@@ -26,7 +26,7 @@ def day_of_programmer(year):
     if year == 1918:
         # Special case for the year of the Russian calendar switch
         return "26.09.1918"
-    
+
     if year < 1918:
         # Julian calendar
         is_leap = year % 4 == 0
@@ -40,8 +40,7 @@ def day_of_programmer(year):
         return f"13.09.{year}"
 
 
-if __name__ == '__main__':
-
+if __name__ == "__main__":
     year = int(input().strip())
     result = day_of_programmer(year)
     print(result)
