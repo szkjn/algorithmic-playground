@@ -49,6 +49,44 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 | Max difference solver |[python](../main/Python/scripts/max_difference_solver.py)||||
 | Linked list construction |[python](../main/Python/scripts/linked_list_construction.py)||||
 
+## Run, lint and test
+
+### Python
+
+- To run scripts :
+
+        cd algorithmic-playground/Python/scripts
+        python <name_of_script>.py
+
+- To run tests :
+
+        cd algorithmic-playground/Python/
+        pytest
+
+### Go
+
+- To run scripts :
+
+        cd algorithmic-playground/Go/<name_of_folder>
+        go run main.go
+
+- To run tests :
+
+        cd algorithmic-playground/Go/<name_of_folder>
+        go test
+
+### TypeScript
+
+- To run scripts :
+
+        cd algorithmic-playground/TypeScript/src
+        ts-node <name_of_script>
+
+- To run tests :
+
+        cd algorithmic-playground/TypeScript/tests
+        npx jest
+
 ## CI/CD Pipeline with GitHub Actions
 
 A Continuous Integration (CI) pipeline has been setup using GitHub Actions to ensure code quality, consistency, and successful builds for both our Go and TypeScript code.
