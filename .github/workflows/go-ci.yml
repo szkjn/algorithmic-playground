@@ -31,5 +31,6 @@ jobs:
 
     - name: Run Go Tests
       run: |
-        cd Go && go test ./...
+        cd Go
+        go test ./...
   
