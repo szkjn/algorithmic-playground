@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'Python/**'
+      - '.github/workflows/python-ci.yml'
   pull_request:
     paths:
       - 'Python/**'
