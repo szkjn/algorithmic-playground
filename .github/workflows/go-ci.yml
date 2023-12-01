@@ -32,5 +32,8 @@ jobs:
     - name: Run Go Tests
       run: |
         cd Go
-        go test ./...
+        for dir in $(find . -type f -name 'main_test.go' -exec dirname {} \; | sort -u); do
+          echo "Running tests in $dir"
+          (cd "$dir" && go test)
+        done
   
