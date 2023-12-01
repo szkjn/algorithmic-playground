@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'Go/**'
+      - '.github/workflows/go-ci.yml'
   pull_request:
     paths:
       -'Go/**'
@@ -30,5 +31,5 @@ jobs:
 
     - name: Run Go Tests
       run: |
-        cd Go/ && go test
+        cd Go && go test ./...
   
