@@ -26,9 +26,8 @@ func dayOfProgrammer(year int32) string {
 
 	if leapYear {
 		return fmt.Sprintf("12.09.%d", year)
-	} else {
-		return fmt.Sprintf("13.09.%d", year)
 	}
+	return fmt.Sprintf("13.09.%d", year)
 }
 
 func main() {

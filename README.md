@@ -75,6 +75,11 @@ This repository is a collection of algorithmic exercises and code challenges ([R
         cd algorithmic-playground/Go/<name_of_folder>
         go run main.go
 
+- To run linter :
+
+        cd algorithmic-playground/Go/
+        golint ./...
+
 - To run tests :
 
         cd algorithmic-playground/Go/<name_of_folder>
