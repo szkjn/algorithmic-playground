@@ -13,7 +13,8 @@ test_data = load_test_data("pair_counter.json")
 
 
 @pytest.mark.parametrize(
-    "n, arr, expected", [(item["n"], item["arr"], item["expected"]) for item in test_data]
+    "n, arr, expected",
+    [(item["n"], item["arr"], item["expected"]) for item in test_data],
 )
 def test_pair_counter(n, arr, expected):
     assert pair_counter(n, arr) == expected

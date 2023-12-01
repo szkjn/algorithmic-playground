@@ -23,23 +23,25 @@ import random
 import re
 import sys
 
+
 def pair_counter(n, arr):
     countMap = {}
-    
+
     for el in arr:
         if el in countMap:
             countMap[el] += 1
         else:
             countMap[el] = 1
-        
+
     countPairs = 0
-    
+
     for el in countMap.values():
         countPairs += el // 2
-            
+
     return int(countPairs)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     n = int(input().strip())
     arr = list(map(int, input().rstrip().split()))
     result = pair_counter(n, arr)
