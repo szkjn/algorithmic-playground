@@ -10,7 +10,7 @@
 
 ## Overview
 
-This repository is a collection of algorithmic exercises and code challenges ([Rendezvous with cassidoo](https://cassidoo.co/newsletter/) / [HackerRank](https://www.hackerrank.com/profile/junseraphinsuzu1) / [Codewars](https://www.codewars.com/users/szkjn)) to master best practices in **Python**, **Go**, **Typescript** and other side-projects languages. *All exercises problems are written in comments at the beginning of the corresponding script.*
+This repository is a hub for algorithmic exercises and coding challenges from various sources ([Rendezvous with cassidoo](https://cassidoo.co/newsletter/) / [HackerRank](https://www.hackerrank.com/profile/junseraphinsuzu1) / [Codewars](https://www.codewars.com/users/szkjn)) to sharpen my skills in **Python**, **Go**, **Typescript** and other side-projects languages. *All exercises problems are written in comments at the beginning of the corresponding script.*
 
 ## Repository structure
 
@@ -49,73 +49,80 @@ This repository is a collection of algorithmic exercises and code challenges ([R
 | Max difference solver |[python](../main/Python/scripts/max_difference_solver.py)||||
 | Linked list construction |[python](../main/Python/scripts/linked_list_construction.py)||||
 
-## Run, lint and test
+## Execution instructions
 
 ### Python
 
-- To run scripts :
+- Run scripts :
 
         cd algorithmic-playground/Python/scripts
         python <name_of_script>.py
 
-- To run linter :
+- Run linter :
 
         cd algorithmic-playground/Python/
         black .
 
-- To run tests :
+- Run tests :
 
         cd algorithmic-playground/Python/
         pytest
 
 ### Go
 
-- To run scripts :
+- Run scripts :
 
         cd algorithmic-playground/Go/<name_of_folder>
         go run main.go
 
-- To run linter :
+- Run linter :
 
         cd algorithmic-playground/Go/
         golint ./...
 
-- To run tests :
+- Run tests :
 
         cd algorithmic-playground/Go/<name_of_folder>
         go test
 
 ### TypeScript
 
-- To run scripts :
+- Run scripts :
 
         cd algorithmic-playground/TypeScript/src
         ts-node <name_of_script>
 
-- To run linter :
+- Run linter :
 
         cd algorithmic-playground/TypeScript/
         ./node_modules/.bin/eslint .
 
-- To run tests :
+- Run tests :
 
         cd algorithmic-playground/TypeScript/tests
         npx jest
 
-## CI/CD Pipeline with GitHub Actions
+## CI/CD with GitHub Actions
 
 A Continuous Integration (CI) pipeline has been setup using GitHub Actions to ensure code quality, consistency, and successful builds for both our Go and TypeScript code.
 
-### Go linting and testing
+### Go CI
 
 1. **Linting on Push and Pull Requests**: Whenever code is pushed or a pull request is made, the CI pipeline automatically lints the Go code to ensure coding standards are met.
 2. **Automated Testing**: Along with linting, the pipeline runs tests for the Go code to validate functionality.
 2. **Tools Used**: I use `golint` for linting and Go's built-in testing framework for running tests.
-3. **GitHub Actions Workflow**: The linting process is defined in the `.github/workflows/go-lint-and-test.yml` file, utilizing GitHub Actions to automatically execute linting and testing on the latest version of Go.
+3. **GitHub Actions Workflow**: The linting process is defined in the `.github/workflows/go-ci.yml` file, utilizing GitHub Actions to automatically execute linting and testing on the latest version of Go.
 
-### TypeScript Build
+### Python CI
+
+1. **Linting on Push and Pull Requests**: Whenever code is pushed or a pull request is made, the CI pipeline automatically lints the Python code to ensure coding standards are met.
+2. **Automated Testing**: Along with linting, the pipeline runs tests for the Python code to validate functionality.
+2. **Tools Used**: I use `black` for linting and `pytest` for running tests.
+3. **GitHub Actions Workflow**: The CI process is defined in the `.github/workflows/python-ci.yml` file, utilizing GitHub Actions to automatically execute linting and testing on the latest version of Go.
+
+### TypeScript CI
 
 1. **Build on Push and Pull Requests**: The CI pipeline is configured to automatically build TypeScript files whenever changes are pushed or a pull request is made to the TypeScript directory.
 2. **Node.js Setup**: The workflow sets up a Node.js environment to manage dependencies and run the build scripts.
 3. **Build Script**: TypeScript files are compiled using the TypeScript compiler configured in the package.json file.
-4. **Workflow Details**: The TypeScript build process is defined in the `.github/workflows/typescript-build.yml` file. It ensures that TypeScript code is compiled successfully, preventing runtime errors due to compilation issues.
+4. **Workflow Details**: The TypeScript build process is defined in the `.github/workflows/typescript-ci.yml` file. It ensures that TypeScript code is compiled successfully, preventing runtime errors due to compilation issues.
