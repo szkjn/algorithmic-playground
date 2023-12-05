@@ -42,7 +42,7 @@ This repository is a hub for algorithmic exercises and coding challenges from va
 
 ## Installation
 
-TBD
+TBD (librairies, requirements.txt)
 
 ## Execution instructions
 
