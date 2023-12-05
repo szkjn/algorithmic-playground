@@ -40,6 +40,10 @@ This repository is a hub for algorithmic exercises and coding challenges from va
 | Highest candles |[python](../main/Python/scripts/highest_candles.py)|[go](../main/Go/highest_candles/main.go)|||
 | Time conversion ||[go](../main/Go/time_conversion/main.go)|[typescript](../main/TypeScript/timeConversion.ts)||
 
+## Installation
+
+TBD
+
 ## Execution instructions
 
 ### Python
