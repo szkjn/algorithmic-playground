@@ -39,15 +39,6 @@ This repository is a hub for algorithmic exercises and coding challenges from va
 | Min-max sum ||[go](../main/Go/min_max_sum/main.go)|||
 | Highest candles |[python](../main/Python/scripts/highest_candles.py)|[go](../main/Go/highest_candles/main.go)|||
 | Time conversion ||[go](../main/Go/time_conversion/main.go)|[typescript](../main/TypeScript/timeConversion.ts)||
-| Phone Book ||[go](../main/Go/phone_book/main.go)|||
-| Factorial ||[go](../main/Go/factorial/main.go)|||
-| Between two sets ||[go](../main/Go/between_two_sets/main.go)|||
-| Binary numbers ||[go](../main/Go/binary_numbers/main.go)|||
-| Hourglass in 2-d array ||[go](../main/Go/hourglass_in_2d_arr/main.go)|||
-| Breaking records ||[go](../main/Go/breaking_records/main.go)|||
-| Subarray division ||[go](../main/Go/subarray_division/main.go)|||
-| Max difference solver |[python](../main/Python/scripts/max_difference_solver.py)||||
-| Linked list construction |[python](../main/Python/scripts/linked_list_construction.py)||||
 
 ## Execution instructions
 
